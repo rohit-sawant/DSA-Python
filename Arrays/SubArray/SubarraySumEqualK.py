@@ -1,5 +1,6 @@
 
 # https://leetcode.com/problems/subarray-sum-equals-k/
+from typing import Optional,List
 class Solution:
     def presentInArray(self,my_dict,my_key)->int:
         if my_key in my_dict:
